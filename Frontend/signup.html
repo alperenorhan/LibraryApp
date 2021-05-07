@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/loginstyle.css">
+
+    <title>My Library | Signup</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row content">
+            <div class="col-md-6">
+                <img src="./assets/logo.png" class="img-fluid" alt="image">
+            </div>
+            <div class="col-md-6">
+                <h3 class="signin-text mb-3">Signup</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="citizenshipnumber">Citizenship Number</label>
+                        <input type="text" name="citizenshipnumber" maxlength="11" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="surname">Surname</label>
+                        <input type="text" name="surname" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="number">Phone Number (0xxx xxx xxxx)</label>
+                        <input type="tel" name="number" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="birthdate">Birth Date</label>
+                        <input type="date" name="birthdate" class="form-control">
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" name="checkbox" class="form-check-input" id="checkbox">
+                        <label class="form-check-label" for="checkbox">I have carefully read and agree to the terms and
+                            conditions</label>
+                    </div>
+                    <button class="btn btn-class">Signup</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

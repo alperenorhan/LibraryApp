@@ -1,0 +1,72 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css");
+
+/* ---Navbar--- */
+.navbar-color {
+    background: #00cdac !important;
+}
+
+.navbar-brand {
+    color: #fff !important;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.active {
+    color: #007b67 !important;
+}
+
+/* Universal Styling for all Cards */
+
+body {
+    background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.card {
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.card:hover {
+    transform: translateY(-15px);
+    transition: transform .3s;
+}
+
+.text1 {
+    font-size: 18px;
+    color: #000;
+}
+
+.info {
+    line-height: 17px;
+}
+
+.star {
+    color: #00cdac;
+}
+
+/* card 1 */
+.cost span {
+    color: #00cdac;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.book {
+    background: #00cdac;
+}
+
+/* Universal Styling Again for All Book Cards */
+.book:hover {
+    opacity: .3;
+}
+
+.cursor {
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
