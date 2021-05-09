@@ -1,6 +1,11 @@
 /* ---Navbar--- */
-.navbar-color {
+.navbar-light {
     background: #00cdac !important;
+}
+
+.navbar-toggler {
+    background: #4ca193 !important;
+    border: 1px solid #4ca193 !important;
 }
 
 .navbar-brand {
