@@ -1,4 +1,4 @@
-<img src="./Frontend/assets/logo.png" width="290" height="193">
+<p align="center"><img src="./Frontend/assets/logo.png" width="290" height="193"></p>
 
 - [EN : Description :boom:](#en)  
 - [TR : Açıklama :boom:](#tr)
